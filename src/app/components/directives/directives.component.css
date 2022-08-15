@@ -1,0 +1,11 @@
+.background{
+  background-color: bisque;
+}
+
+.title {
+  text-decoration: line-through;
+}
+
+.underline-title{
+  text-decoration: underline;
+}

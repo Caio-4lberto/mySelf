@@ -1,0 +1,7 @@
+<h3 *ngIf="canShow">Estamos mostrando essa Renderização Condicional, pois foi permitido com true!</h3>
+<p *ngIf="name === 'Caio'; else nameNotFound"> O nome é Caio</p>
+<ng-template #nameNotFound>
+  <div>
+    <h2>O nome não foi encontrado!</h2>
+  </div>
+</ng-template>

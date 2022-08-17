@@ -9,6 +9,7 @@ import { DirectivesComponent } from './components/directives/directives.componen
 import { IfRenderComponent } from './components/if-render/if-render.component';
 import { EventsComponent } from './components/events/events.component';
 import { ListRenderComponent } from './components/list-render/list-render.component';
+import { ExampleApplicationInterfacesComponent } from './components/example-application-interfaces/example-application-interfaces.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ListRenderComponent } from './components/list-render/list-render.compon
     DirectivesComponent,
     IfRenderComponent,
     EventsComponent,
-    ListRenderComponent
+    ListRenderComponent,
+    ExampleApplicationInterfacesComponent
   ],
   imports: [
     BrowserModule,

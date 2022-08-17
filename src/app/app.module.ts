@@ -10,6 +10,7 @@ import { IfRenderComponent } from './components/if-render/if-render.component';
 import { EventsComponent } from './components/events/events.component';
 import { ListRenderComponent } from './components/list-render/list-render.component';
 import { ExampleApplicationInterfacesComponent } from './components/example-application-interfaces/example-application-interfaces.component';
+import { PipeOperatorsComponent } from './components/pipe-operators/pipe-operators.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ExampleApplicationInterfacesComponent } from './components/example-appl
     IfRenderComponent,
     EventsComponent,
     ListRenderComponent,
-    ExampleApplicationInterfacesComponent
+    ExampleApplicationInterfacesComponent,
+    PipeOperatorsComponent
   ],
   imports: [
     BrowserModule,

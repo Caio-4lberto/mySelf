@@ -23,7 +23,7 @@ export class ExampleApplicationInterfacesComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  showAge(person: Person){
+  showAge(person: Person): void{    //POR SER RELACIONADO AO DOM E APENAS VISUAL O RETORNO PODE SER VOID (VÁZIO)
     this.personDetails = `A pessoa denominada ${person.name} tem ${person.age} ano(s)!`;
   }
 

@@ -1,0 +1,22 @@
+<!--
+  FOI INSERIDO NO CÓDIGO NO app.module.ts QUE FICA NO FORMULÁRIO PAI 🔽
+  No inicio
+    import { FormsModule } from '@angular/forms';
+
+  imports
+    FormsModule
+-->
+
+<div>
+  <p>two-way-data-biding works!</p>
+  <form>
+    <input type="text" [(ngModel)]="name"
+    name="name"
+    placeholder="Digite o seu nome">
+    <input type="submit" value="Enviar">
+  </form>
+
+  <div *ngIf="name !== ''">
+    <p>O nome é {{ name }}</p>
+  </div>
+</div>

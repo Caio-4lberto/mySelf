@@ -13,6 +13,7 @@ import { ListRenderComponent } from './components/list-render/list-render.compon
 import { ExampleApplicationInterfacesComponent } from './components/example-application-interfaces/example-application-interfaces.component';
 import { PipeOperatorsComponent } from './components/pipe-operators/pipe-operators.component';
 import { TwoWayDataBidingComponent } from './components/two-way-data-biding/two-way-data-biding.component';
+import { ExampleApplicationServicesComponent } from './components/example-application-services/example-application-services.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { TwoWayDataBidingComponent } from './components/two-way-data-biding/two-
     ListRenderComponent,
     ExampleApplicationInterfacesComponent,
     PipeOperatorsComponent,
-    TwoWayDataBidingComponent
+    TwoWayDataBidingComponent,
+    ExampleApplicationServicesComponent
   ],
   imports: [
     BrowserModule,

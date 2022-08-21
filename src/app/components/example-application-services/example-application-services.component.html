@@ -1,0 +1,14 @@
+<!--
+
+  ESSE COMPONENTE FOI CRIADO COM A INTENÇÃO DE INTERAGIR COM O list.service PARA APRENDERMOS NA PRÁTICA COMO UTILIZAR ELE
+
+-->
+<div>
+  <h2>Items:</h2>
+  <ul>
+    <li *ngFor="let item of items">
+      Nome: {{ item.name }} | Tipo: {{ item.type }}
+      <button (click)="removeItem(item)"> Remover </button>
+    </li>
+  </ul>
+</div>

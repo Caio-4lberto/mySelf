@@ -1,22 +1,30 @@
+<style>
+  a {
+    margin-left: 2%;
+    text-decoration: none;
+    color: black;
+
+  }
+
+</style>
+
 <h1>Hello, World!</h1>
+
+<!-- MENU DE NAVEGAÇÃO CRIADO DE ACORDO COM AS ROTAS DO app-routing.module.ts -->
+<nav>
+  <a routerLink="/"> HOME </a>
+  <a routerLink="/parent"> PARENT </a>
+  <a routerLink="/directives"> DIRECTIVES </a>
+  <a routerLink="/if-render"> IF RENDER </a>
+  <a routerLink="/events"> EVENTS </a>
+  <a routerLink="/list-render"> LIST RENDER </a>
+  <a routerLink="/example-application-interfaces"> INTERFACE </a>
+  <a routerLink="/pipe-operators"> PIPE OPERATORS </a>
+  <a routerLink="/two-way-data-biding"> TWO WAY DATA BINDING </a>
+  <a routerLink="/example-application-services"> SERVICES </a>
+</nav>
+
 <hr>
-<app-first-component></app-first-component>
-<hr>
-<app-parent [status]="statusPai"></app-parent>
-<hr>
-<app-directives></app-directives>
-<hr>
-<app-if-render></app-if-render>
-<hr>
-<app-events></app-events>
-<hr>
-<app-list-render></app-list-render>
-<hr>
-<app-example-application-interfaces></app-example-application-interfaces>
-<hr>
-<app-pipe-operators></app-pipe-operators>
-<hr>
-<app-two-way-data-biding></app-two-way-data-biding>
-<hr>
-<app-example-application-services></app-example-application-services>
+<br> <br>
+<router-outlet></router-outlet>
 

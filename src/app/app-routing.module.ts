@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DirectivesComponent } from './components/directives/directives.component';
 import { EventsComponent } from './components/events/events.component';
+import { ExampleApplicationHttpComponent } from './components/example-application-http/example-application-http.component';
 import { ExampleApplicationInterfacesComponent } from './components/example-application-interfaces/example-application-interfaces.component';
 import { ExampleApplicationServicesComponent } from './components/example-application-services/example-application-services.component';
 import { FirstComponentComponent } from './components/first-component/first-component.component';
@@ -23,6 +24,7 @@ const routes: Routes = [
   {path: 'pipe-operators', component: PipeOperatorsComponent},
   {path: 'two-way-data-biding', component: TwoWayDataBidingComponent},
   {path: 'example-application-services', component: ExampleApplicationServicesComponent},
+  {path: 'example-application-http', component: ExampleApplicationHttpComponent},
 ];
 
 @NgModule({

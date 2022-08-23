@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-parent',
@@ -7,11 +7,12 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ParentComponent implements OnInit {
 
-  @Input() status:string = '';
 
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  dadosPai = 'Dados do Pai';
 
 }

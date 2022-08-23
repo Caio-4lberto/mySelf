@@ -15,6 +15,7 @@ import { PipeOperatorsComponent } from './components/pipe-operators/pipe-operato
 import { TwoWayDataBidingComponent } from './components/two-way-data-biding/two-way-data-biding.component';
 import { ExampleApplicationServicesComponent } from './components/example-application-services/example-application-services.component';
 import { ExampleApplicationHttpComponent } from './components/example-application-http/example-application-http.component';
+import { ParentChildComponent } from './components/parent-child/parent-child.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ExampleApplicationHttpComponent } from './components/example-applicatio
     PipeOperatorsComponent,
     TwoWayDataBidingComponent,
     ExampleApplicationServicesComponent,
-    ExampleApplicationHttpComponent
+    ExampleApplicationHttpComponent,
+    ParentChildComponent
   ],
   imports: [
     BrowserModule,

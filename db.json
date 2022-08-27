@@ -1,0 +1,8 @@
+{
+  "people": [
+    {"name": "Caio", "genre": "Masculino","age": 24 },
+    {"name": "Henrique", "genre": "Masculino", "age": 15},
+    {"name": "Gustavo", "genre": "Masculino","age": 35},
+    {"name": "Nívea", "genre": "Feminino", "age": 24}
+  ]
+}

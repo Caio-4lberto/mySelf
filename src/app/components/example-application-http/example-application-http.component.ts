@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Person } from 'src/app/person';
+import { ListService } from 'src/app/services/list.service';
+
 
 @Component({
   selector: 'app-example-application-http',
@@ -7,16 +10,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExampleApplicationHttpComponent implements OnInit {
 
-  people = [
-    {name: "Caio", genre: "Masculino",age: 24 },
-    {name: "Henrique", genre: "Masculino", age: 15},
-    {name: "Gustavo", genre: "Masculino",age: 35},
-    {name: "Nívea", genre: "Feminino", age: 24},
-  ];
+  people: Person[] = [];
 
-  constructor() { }
+  constructor(private listService: ListService) {
+    this.getPeople()
+  }
 
   ngOnInit(): void {
   }
 
+  getPeople(): void {
+    this.listService.getAll().subscribe((people) => (this.people = people));
+  }
 }

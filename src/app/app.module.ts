@@ -17,6 +17,7 @@ import { TwoWayDataBidingComponent } from './components/two-way-data-biding/two-
 import { ExampleApplicationServicesComponent } from './components/example-application-services/example-application-services.component';
 import { ExampleApplicationHttpComponent } from './components/example-application-http/example-application-http.component';
 import { ParentChildComponent } from './components/parent-child/parent-child.component';
+import { PersonDetailsComponent } from './components/person-details/person-details.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ParentChildComponent } from './components/parent-child/parent-child.com
     TwoWayDataBidingComponent,
     ExampleApplicationServicesComponent,
     ExampleApplicationHttpComponent,
-    ParentChildComponent
+    ParentChildComponent,
+    PersonDetailsComponent
   ],
   imports: [
     BrowserModule,

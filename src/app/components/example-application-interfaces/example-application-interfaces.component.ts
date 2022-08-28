@@ -10,10 +10,10 @@ import { Person } from 'src/app/person';
 export class ExampleApplicationInterfacesComponent implements OnInit {
 
   people: Person[] = [       //people: object[] = [    é muito amplo utilizar o object para tipar
-    {name: "Caio", genre: "Masculino",age: 24 },
-    {name: "Henrique", genre: "Masculino", age: 15},
-    {name: "Gustavo", genre: "Masculino",age: 35},
-    {name: "Nívea", genre: "Feminino", age: 24},
+    {id: 1, name: "Caio", genre: "Masculino",age: 24 },
+    {id: 2, name: "Henrique", genre: "Masculino", age: 15},
+    {id: 3, name: "Gustavo", genre: "Masculino",age: 35},
+    {id: 4, name: "Nívea", genre: "Feminino", age: 24},
   ];
 
   personDetails = '';

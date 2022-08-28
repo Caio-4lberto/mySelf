@@ -9,6 +9,7 @@ import { FirstComponentComponent } from './components/first-component/first-comp
 import { IfRenderComponent } from './components/if-render/if-render.component';
 import { ListRenderComponent } from './components/list-render/list-render.component';
 import { ParentComponent } from './components/parent/parent.component';
+import { PersonDetailsComponent } from './components/person-details/person-details.component';
 import { PipeOperatorsComponent } from './components/pipe-operators/pipe-operators.component';
 import { TwoWayDataBidingComponent } from './components/two-way-data-biding/two-way-data-biding.component';
 
@@ -25,6 +26,7 @@ const routes: Routes = [
   {path: 'two-way-data-biding', component: TwoWayDataBidingComponent},
   {path: 'example-application-services', component: ExampleApplicationServicesComponent},
   {path: 'example-application-http', component: ExampleApplicationHttpComponent},
+  {path: 'example-application-http/:id', component: PersonDetailsComponent},
 ];
 
 @NgModule({
